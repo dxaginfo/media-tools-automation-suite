@@ -1,0 +1,30 @@
+{
+  "validation_rules": {
+    "required_fields": [
+      "scene_id",
+      "name",
+      "duration",
+      "elements"
+    ],
+    "field_types": {
+      "scene_id": "string",
+      "name": "string",
+      "description": "string",
+      "duration": "number",
+      "elements": "array",
+      "metadata": "object",
+      "settings": "object"
+    },
+    "allowed_element_types": [
+      "character",
+      "prop",
+      "effect",
+      "audio",
+      "camera",
+      "light",
+      "environment"
+    ]
+  },
+  "gemini_api_key": "YOUR_GEMINI_API_KEY",
+  "logging_level": "INFO"
+}

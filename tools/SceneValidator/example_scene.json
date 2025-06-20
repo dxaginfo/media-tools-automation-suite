@@ -1,0 +1,46 @@
+{
+  "scene_id": "sc_01_intro",
+  "name": "Introduction Scene",
+  "description": "Opening scene with main character entering the cafe",
+  "duration": 45.5,
+  "elements": [
+    {
+      "id": "char_protagonist",
+      "type": "character",
+      "name": "Alex",
+      "position": {"x": 120, "y": 30, "z": 0},
+      "actions": ["walk", "sit", "look_around"]
+    },
+    {
+      "id": "env_cafe",
+      "type": "environment",
+      "name": "Downtown Cafe",
+      "attributes": ["indoor", "warm_lighting", "busy"]
+    },
+    {
+      "id": "audio_ambience",
+      "type": "audio",
+      "name": "Cafe Ambience",
+      "volume": 0.7,
+      "loop": true
+    },
+    {
+      "id": "cam_main",
+      "type": "camera",
+      "name": "Main Camera",
+      "position": {"x": 0, "y": 15, "z": -50},
+      "rotation": {"x": 0, "y": 0, "z": 0}
+    }
+  ],
+  "metadata": {
+    "created_by": "Director Name",
+    "created_at": "2025-06-01T10:30:00Z",
+    "version": "1.2",
+    "tags": ["opening", "character_introduction", "indoor"]
+  },
+  "settings": {
+    "time_of_day": "morning",
+    "weather": "sunny",
+    "mood": "relaxed"
+  }
+}
